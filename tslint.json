@@ -5,7 +5,8 @@
     ],
     "jsRules": {},
     "rules": {
-        "curly": [true, "as-needed"]
+        "curly": [true, "as-needed"],
+        "interface-name": false
     },
     "rulesDirectory": []
 }

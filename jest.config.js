@@ -1,9 +1,9 @@
 module.exports = {
     preset: 'ts-jest',
     testEnvironment: 'node',
-    modulePathIgnorePatters: ['dist'],
+    modulePathIgnorePatterns: ['dist'],
     collectCoverageFrom: [
-        "**/*.{ts}",
+        "**/*.{ts,tsx}",
         "!**/node_modules/**",
         "!**/vendor/**"
     ]
