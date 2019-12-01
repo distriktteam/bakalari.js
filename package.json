@@ -1,0 +1,23 @@
+{
+  "name": "bakalari.js",
+  "version": "0.0.1",
+  "description": "A library for interacting with Bakaláři servers",
+  "main": "dist/index.js",
+  "repository": "https://github.com/distrikt/bakalari.js",
+  "author": "Martin Löffler <git@fatalerrorcoded.eu> (https://fatalerrorcoded.eu)",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "test": "jest --verbose --coverage",
+    "prepublishOnly": "tsc"
+  }
+}
