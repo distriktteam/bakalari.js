@@ -20,7 +20,7 @@ export async function getHx(url: string, username: string): Promise<HX> {
     return { type: object.results.typ, ikod: object.results.ikod, salt: object.results.salt };
 }
 
-export function hashPassword(hx: HX, password: string): string {
+export function computePassword(hx: HX, password: string): string {
     return new sha512().update(hx.salt + hx.ikod + hx.type + password).digest("base64");
 }
 

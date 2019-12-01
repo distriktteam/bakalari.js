@@ -11,6 +11,7 @@
     "@types/jest": "^24.0.23",
     "@types/sha.js": "^2.4.0",
     "jest": "^24.9.0",
+    "jest-mock-axios": "^3.1.2",
     "mockdate": "^2.0.5",
     "ts-jest": "^24.2.0",
     "tslint": "^5.20.1",
